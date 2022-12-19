@@ -1,26 +1,19 @@
 package practices;
-
-import java.util.ArrayList;
 public class A_Practice_Demo {
 
 	public static void main(String[] args) {
 		
 	
-		ArrayList<Object> al = new ArrayList<>();
+		String s = "bikerboyk";
 		
-		al.add("a");
-		al.add('l');
-		al.add(32);
-		al.add(true);
-		al.add(2.36);
-		
-		System.out.println(al.contains(32));
-		
-		
-		
-		
-		
-		
+		for(int i=0;i<s.length();i++)
+		{
+			for(int j=i+1;j<s.length();j++)
+			{
+				if(s.charAt(i)==s.charAt(j))
+					System.out.println(s.charAt(i));
+			}
+		}
    }
 	
 }
