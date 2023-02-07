@@ -5,7 +5,7 @@ public class P_015_wap_to_find_max_from_array {
 	public static void main(String[] args) {
 
 		
-		int[] arr = new int[]{12,23,45,65,24,36};
+		int[] arr = {12,23,45,65,24,36};
 		
 		int max = arr[0];
 		

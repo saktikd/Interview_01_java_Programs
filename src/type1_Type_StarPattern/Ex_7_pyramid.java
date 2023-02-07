@@ -18,14 +18,6 @@ public class Ex_7_pyramid {
 			
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
