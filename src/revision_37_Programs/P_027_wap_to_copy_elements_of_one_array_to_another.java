@@ -9,7 +9,8 @@ public class P_027_wap_to_copy_elements_of_one_array_to_another {
 		
 		int[] arr1 = new int[arr.length];
 		
-		for(int i= 0;i<arr.length;i++)
+		for(int i= 0;i<arr.length
+				;i++)
 		{
 			arr1[i]=arr[i];
 		}
